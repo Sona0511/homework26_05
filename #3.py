@@ -1,0 +1,5 @@
+#Write a program that asks the user to enter two numbers ,x, and y, and computes |x-y|/(x+y)
+x = float(input("Enter x:"))
+y = float(input("Enter y:"))
+a = (abs(x-y))/(x+y)
+print(a)
